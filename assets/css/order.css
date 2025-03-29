@@ -1,0 +1,109 @@
+.btn{
+    align-items: center;
+
+}
+.card3{
+    margin-top: 10px;
+    background: #ffffff;
+    width: 80%;
+    margin-left: 17%;
+}
+.card3-header{
+    font-size: 25px;
+    background: #e40202;
+    color: white;
+}
+.table{
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+.form-control{
+    border: 2px solid black;
+}
+
+.mb-3>input{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.mb-3>select{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 2px solid black;
+}
+
+.form-label{
+    color: black;
+}
+.btn{
+    margin-top: 10px;
+}
+#orSaveBtn{
+    align-items: center;
+}
+.table-light{
+    background: #e40202;
+    color: white;
+}
+
+.card{
+    margin: 100px 30px;
+    gap: 50px;
+}
+@media (max-width: 992px) {
+    .card3 {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .table {
+        max-width: 95%;
+        margin-left: 2.5%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .mb-3 {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .totals {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    #order_btn {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .form-control,
+    .form-select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card3-header h3,
+    .card-header2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .table-light th {
+        font-size: 12px;
+    }
+
+    .totals label, .totals p {
+        display: block;
+        margin-top: 5px;
+    }
+}

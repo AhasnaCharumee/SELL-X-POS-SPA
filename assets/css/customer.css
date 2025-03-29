@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+#cusbtn{
+  background: #0188ff ;
+  color: rgb(0, 0, 0);
+  width: 60px;
+}
+#cusbtn:hover{
+  background: #0180f0 ;
+  color: rgb(255, 255, 255);
+  width: 60px;
+}
+#cus_update_btn{
+  background: yellow ;
+  color: rgb(0 0 0);
+}
+#cus_update_btn:hover{
+  background: yellow;
+  color: rgb(0 0 0);
+}
+#cus_delete_btn{
+  background: red ;
+  color: rgb(0 0 0);
+}
+#cus_delete_btn:hover{
+  background: red;
+  color: rgb(0 0 0);
+}
+#cus_clean_btn{
+  background: pink;
+  color: rgb(0, 0, 0);
+}
+#cus_clean_btn:hover{
+  background: pink ;
+  color: rgb(255, 255, 255);
+}
+#cus_get_btn{
+   background: green;
+  color: rgb(0, 0, 0);
+}
+#cus_get_btn:hover{
+  background: green ;
+  color: rgb(255, 255, 255);
+}
+#customerForm{
+  background: #ffffff ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 100%;
+  margin-top:-4%;
+  
+  
+ 
+}
+#cusCard{
+  margin-top: 200px;
+  background: #ff0000 ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 110%;
+  margin-left: 21%;
+  margin-top: 14%;
+max-width:80%;  
+
+}
+/* #cusCard>div:nth-child(2){
+  background: #88a8e4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 90%;
+    margin-left:5%;
+
+ 
+} */
+
+#tableraw>th{
+  background: #ff0808;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
+}
+
+#customerTable{
+  width: 110%;
+  margin-left: 5%;
+  margin-top: 10%;
+    margin-left: 21%;
+max-width:80%;  
+
+ 
+}
+
+.mt-5{
+  margin-left: 5%;
+}
+
+@media (max-width: 992px) {
+  #cusCard, #customerTable {
+    margin-left: 5% !important;
+    width: 90% !important;
+  }
+
+  .mt-5 {
+    margin-left: 5% !important;
+  }
+
+  h2, h3 {
+    margin-left: 5% !important;
+    text-align: center;
+  }
+
+  #cusCard .card-header {
+    font-size: 1rem;
+  }
+
+  #customerForm {
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #customerTable {
+    overflow-x: auto;
+    display: block;
+  }
+
+  #customerTable table {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  #cusCard, #customerTable {
+    margin-left: 2% !important;
+    width: 96% !important;
+  }
+
+  .mt-5 {
+    margin-left: 2% !important;
+  }
+
+  h2, h3 {
+    font-size: 1.3rem;
+    margin-left: 2% !important;
+    text-align: center;
+  }
+
+  .row .col {
+    margin-bottom: 10px;
+  }
+
+  #customerForm {
+    padding: 5px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  #customerTable th,
+  #customerTable td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  div[style*="display: flex"] {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
