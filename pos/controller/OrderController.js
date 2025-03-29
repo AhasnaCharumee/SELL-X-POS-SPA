@@ -208,7 +208,7 @@ function clearItemInputs() {
 
         if (cart_arr.length === 0) {
             Swal.fire({
-                icon: "error",
+                icon: "success",
                 title: "Order placed successfully",
                 text: "No items in the cart!",
             });
